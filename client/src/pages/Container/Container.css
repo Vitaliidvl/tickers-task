@@ -1,0 +1,69 @@
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 61%;
+  height: 100%;
+  color: black;
+}
+.tickerTable {
+  margin: 0% 0%;
+}
+.tickerTableHeader {
+  margin: 1% 20%;
+  transform: translate(40%);
+  font-size: 16px;
+  font-weight: bold;
+}
+.tickerRow {
+  padding: 1% 20%;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: baseline;
+  align-items: center;
+}
+
+.tickerRow:hover {
+  background-color: rgba(228, 228, 228, 0.322);
+  cursor: pointer;
+}
+.tickerLabel {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  width: 41px;
+  text-align: center;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.tickerName {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-items: baseline;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+}
+.AAPL {
+  background-color: rgba(121, 117, 117, 0.747);
+}
+.GOOGL {
+  background-color: rgba(11, 82, 148, 0.747);
+}
+.TSLA {
+  background-color: rgba(219, 0, 0, 0.747);
+}
+.FB {
+  background-color: rgba(0, 0, 224, 0.747);
+}
+.AMZN {
+  background-color: rgba(0, 144, 200, 0.747);
+}
+.MSFT {
+  background-color: rgb(93, 0, 214);
+}
